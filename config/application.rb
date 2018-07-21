@@ -4,12 +4,13 @@ require 'rails/all'
 
 Bundler.require(*Rails.groups)
 
-config.assets.initialize_on_precompile = false
+
 
 module Izanagi
   class Application < Rails::Application
 
     config.active_record.raise_in_transactional_callbacks = true
+    config.assets.initialize_on_precompile = false
     
   end
 end
