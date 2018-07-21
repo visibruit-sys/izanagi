@@ -2,4 +2,3 @@
 -r log
 bin/bundle
 -r tmp
-Gemfile.lock
